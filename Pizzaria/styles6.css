@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner{
+    background-image: url(img/bg_portuguesa.svg);
+    min-height: 721px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.info{
+    left: 0;
+    position: absolute;
+    top: 5vh;
+    margin-top: 30px;
+    background-color: #f27806b6;
+    border-radius: 15px;
+    width: 450px;
+    height: 600px;
+    list-style: none;
+    margin-left: 120px;
+}
+
+.info h1{
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.info h3{
+    color: #23CB98;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.info h5{
+    color: white;
+    padding:  30px; 
+    padding-top: 10px;
+}
+
+.sair{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.avaliacao{
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+}
+
+.avaliacao h4{
+    color: white;
+    margin-top: -25px;
+    margin-left: 70px;
+}
+
+.avaliacao i{
+    color: white;
+    font-size: 30px;
+}
+
+.avaliacao img{
+    padding-left: 35px;
+    margin-top: -10px;
+}
+
+.depoimento1{
+    position: absolute;
+    background-color: white;
+    height: 70px;
+    width:350px ;
+    margin-top: -15px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.depoimento1 p{
+   text-shadow:  0px 2px 2px rgba(0, 0, 0, 0.564);
+   padding-left: 20px;
+   padding-top: 15px;
+}
+
+.depoimento1 h6{
+    padding-left: 60px;
+    margin-top: -30px;
+}
+
+.depoimento1 img{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.depoimento2{
+    position: absolute;
+    background-color: white;
+    height: 70px;
+    width:350px;
+    margin-left: 30px;
+    top: 500px;
+    margin-top: -75px;
+    border-radius: 5px;
+}
+
+.depoimento2 p{
+    text-shadow:  0px 2px 2px rgba(0, 0, 0, 0.564);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.depoimento2 img{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.depoimento2 h6{
+   margin-top: -30px;
+   padding-left: 60px;
+}

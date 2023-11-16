@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    /* background: linear-gradient(180deg, #F27706 61.47%, rgba(249, 173, 103, 0.00) 100%) no-repeat; */
+    background-color: rgb(230, 105, 9);
+    width: 400px;
+    height: 723px;
+    display: flex;
+}
+
+.logo{
+    position: relative;
+    background-image: url(./img/logo.svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+    top: 30px;
+    text-align: center;
+}
+
+.logo h2{
+    position: relative;
+    color: white;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.logo h4{
+    position: relative;
+    color: white;
+    padding-left: 90px
+}
+
+.logo i{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    padding-left: 195vh;
+    text-align: center;
+}
+
+.logo h3{
+    position: relative;
+    color: white;
+    padding-left: 195vh;
+    font-size: 12px;
+}
+
+#divBusca{
+    background-color:#ffffff;
+    border-radius:5px;
+    width:340px;
+    height: 40px;
+    margin-left: 70vh;
+    padding-top: 4px;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    font-style:italic;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:270px;
+}
+
+#btnBusca{
+    color: rgb(208, 183, 183);
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.categorias h6{
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px ;
+}
+
+.categorias img{
+    width: 53px;
+    height: 337px;
+    margin-left: 60px;
+}
+
+.pizzas{
+    bottom: 400px;
+    padding-left: 50vh;
+}
+
+.pizzas h2{
+
+    color: #FFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.slides-list{
+
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+    
+.categorias{
+    float: inline-start;
+}
+
+.bebidas h2{
+    color: #FFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 24px;
+}
+
+.bebidas img{
+    width: 700px;
+}
+
+.bebidas{
+    padding-left: 350px;
+}
+

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner2{
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url(./img/bg_pepperoni.png);
+    min-height: 721px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    left: 0;
+    position: absolute;
+    top: 5vh;
+    margin-top: 30px;
+    background-color: #f27806a6;
+    border-radius: 15px;
+    width: 650px;
+    height: 600px;
+    list-style: none;
+    margin-left: 450px;
+}
+
+.login2{
+    position: relative;
+    background-image: url(./img/logo.svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+    top: -80px;
+    text-align: center;
+}
+
+.login h3{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 140%;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.text h2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    padding-left: 35vh;
+    margin-top: -100px;
+}
+
+.login i{
+    color: white;
+    font-size: 25px;
+}
+
+.cadastro{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 20vh;
+    background-color: white;
+}
+
+.pessoa{
+
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 135px;
+}
+
+.sair i{
+    position: relative;
+    font-size: 90px;
+    margin-top: 50px;
+}
+
+.telefone{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10vh;
+    background-color: white;
+    border: 1px solid rgb(255, 123, 0);
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.telefone img{
+    width: 15%;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.texto h4{
+    padding-left: 140px;
+    padding-top: 60px;
+}
+
+.texto h6{
+    padding-left: 160px;
+    margin-bottom: 20px;
+}
+
+.text-2{
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.text-2 h4{
+    color: #000;
+    font-style: bold;
+}
+
+.email{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10vh;
+    background-color: white;
+    border: 1px solid rgb(255, 123, 0);
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+.email img{
+    margin-top: -110px;
+    width: 15%;
+    margin-left: 10px;
+}
+
+.localizacao{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10vh;
+    background-color: white;
+    border: 1px solid rgb(255, 123, 0);
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.localizacao img{
+    margin-top: -50px;
+    width: 15%;
+    margin-left: 10px;
+}

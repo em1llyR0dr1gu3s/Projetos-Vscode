@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+
+    overflow-x: hidden;
+}
+
+.conteiner{
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url(img/login_bg.png);
+    min-height: 747px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+
+    position: relative;
+    background-image: url(../Pizzaria/img/logo.svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+}
+
+.logo h3{
+
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    margin-left: 90px;
+    color: white;
+    padding-top: 25px;
+}
+
+.areaLaranja{
+
+    width: 536px;
+    height: 600px;
+    border-radius: 50px;
+    background: rgba(252, 121, 0, 0.75);
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.areaLaranja i{
+
+    font-size: 45px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.areaLaranja h3{
+
+    color: white;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.branco{
+
+    width: 400px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.perfil{
+
+    text-align: center;
+}
+
+.perfil i{
+
+    position: relative;
+    font-size: 100px;
+    color: #c4c4c4;
+}
+
+.camera{
+
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    margin-right: -55px;
+}
+
+.camera i{
+
+    font-size: 25px;
+    color: rgb(255, 149, 0);
+    margin-top: -70px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.informacoes{
+
+    margin-left: 25px;
+}
+
+form{
+
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.traco{
+
+    width: 303px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.branco input[type=submit]{
+
+    width: 303px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #FFF;
+    text-align: center;
+    background-color: #199570;
+}

@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner2{
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url(./img/login_bg.png);
+    min-height: 721px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    left: 0;
+    position: absolute;
+    top: 5vh;
+    margin-top: 30px;
+    background-color: #f27806a6;
+    border-radius: 15px;
+    width: 450px;
+    height: 600px;
+    list-style: none;
+    margin-left: 550px;
+}
+
+.login2{
+    position: relative;
+    background-image: url(./img/logo.svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+    top: 80px;
+    text-align: center;
+    padding-left: 165vh;
+}
+
+.login h3{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 140%;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.textos{
+    color: white;
+    text-align: center;
+    position: relative;  
+}
+
+.textos h2{
+     padding-left: 550px;
+    position: absolute;
+    top: 20vh;
+}
+
+.textos h4{
+    padding-left: 550px;
+    position: absolute;
+    top: 25vh;
+}
+
+.textos h6{
+    padding-left: 770px;
+    position: absolute;
+    top: 60vh;
+}
+
+.textos h5{
+    position: absolute;
+    padding-left: 650px;
+    top: 63vh;
+    line-height: 20px;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.textos a{
+    position: absolute;
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    text-shadow: #000 2px 3px 2px;
+    top: 66vh;
+    margin-left: -35px;
+}
+
+.button{
+    left: 0;
+    position: absolute;
+    top: 60vh;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    margin-left: 700px;
+  
+}
+
+.button a{
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #F27706;
+    padding-left: 40px;
+    font-size: 25px;
+} 
+
+.cadastro{
+    text-align: center;
+    padding-top: 200px;
+    line-height: 35px;
+    text-decoration: none;
+
+}
+
+.cadastro input[type="email"]:focus{outline: 0;}
+
+.cadastro input[type="email"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    border: 0;
+    padding-left: 15px;
+    font-size: 18px ;
+}
+
+.cadastro input[type="password"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+}
+
+.login i{
+    color: white;
+    font-size: 25px;
+}
